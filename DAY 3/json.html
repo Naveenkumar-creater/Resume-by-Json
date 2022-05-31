@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          let person = [{"name":"John", "age":30, "cars":"BMW"}];
+        for (let i=0;i<person.length;i++) {
+            console.log(person[i]);
+        }
+    </script>
+    //for in string in this method key is taken the key
+    <script>
+        let perso = {"name":"John", "age":30, "cars":"BMW"};
+        for (let key in perso) {
+            console.log(perso[key]);
+        }
+    </script>
+    //for  in arra
+    <script>
+        let pers = [{"name":"John", "age":30, "cars":"BMW"}];
+        for (let key in pers) {
+            console.log(pers[key]);
+        }
+    </script>
+    //for of int his method key is given value
+    <script>
+           let per = [{"name":"John", "age":30, "cars":"BMW"}];
+          for (let key of per) {
+            console.log(key);
+        }
+    
+    </script>
+    <script>
+   //for of only use in sigle string not use in {} 
+let language = "John";
+
+let text = "";
+for (let x of language) {
+  text += x ;
+}
+console.log(text);
+ </script>
+ <script>
+          let num = [{"name":"John", "age":30, "cars":"BMW"}];
+
+          num.forEach((number,i,array) => {
+            console.log(number,i,array);
+          })
+ </script>
+
+</body>
+</html>

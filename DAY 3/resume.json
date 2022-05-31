@@ -1,0 +1,39 @@
+{
+    "basics": [{
+      "name": "NAVEENKUMAR B",
+     "fathername":"BALASUNDARAM S",
+      "email": "naveenmech1074@gmail.com",
+      "phone": "8072583841",
+        "address": "36/151/E periyar nagar",
+        "pincode":"636402",
+        "city": "salem",
+        "state":"tamilnadu",
+        "country": "india",
+        "region": "hindu"
+      }],
+    "education": [{
+      "institution": "Muthyammal College Of Engineering",
+      "studyType": "Bachelor",
+      "startDate": "03.07.2016",
+      "endDate": "05.05.2020",
+      "courses": "Mechanical Engineering",
+      "percentage":"67.5%",
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "beginner",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": ["English","tamil"]
+      "fluency": [  "Tamil", "English"]
+    }],
+    "Hobbies":{"cricket,reading books"},
+
+    "Goals":{"placed in reputed companyand it use develo[ping my skills"}
+}
+
